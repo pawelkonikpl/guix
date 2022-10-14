@@ -18,6 +18,7 @@ jobs:
       - run: echo "🍏 This job's status is ${{ job.status }}."
 
   build:
+    needs: default
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
@@ -25,5 +26,5 @@ jobs:
         with:
           node-version: 14
           cache: 'npm'
-      - run: npm lint
-      - run: npm build-only
+      - run: npm run lint
+      - run: npm run build-only
