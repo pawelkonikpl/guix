@@ -30,7 +30,7 @@ jobs:
           cache: 'npm'
       - run: npm install
       - run: npm run lint
-      - run: npm run build-only
+      - run: npm run build
 
       - name: Restore cache
         uses: actions/cache@v3
