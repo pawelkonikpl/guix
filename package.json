@@ -18,6 +18,7 @@
   },
   "main": "background.js",
   "dependencies": {
+    "@vueuse/core": "^9.3.0",
     "konva": "^8.3.13",
     "pinia": "^2.0.21",
     "vue": "^3.2.38",
