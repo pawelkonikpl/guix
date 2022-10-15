@@ -4,7 +4,7 @@ const settings = [
   {
     path: '/settings',
     name: 'settings',
-    component: () => SettingsView,
+    component: SettingsView,
   },
 ]
 
