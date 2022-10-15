@@ -1,4 +1,5 @@
 <template>
+  <router-view />
   <v-stage ref="stage" :config="stageSize">
     <v-layer ref="layer">
       <v-circle
